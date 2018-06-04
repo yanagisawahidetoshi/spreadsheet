@@ -10,7 +10,7 @@ bundle install
 ```
 
 ### chromeドライバインストール
-Homebrewでchromeドライバをインストールします
+selenium上で実行するためHomebrewでchromeドライバをインストールします
 ```
 brew install chromedriver
 ```
