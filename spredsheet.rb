@@ -15,6 +15,7 @@ class Attendance
 
 			build_target_date
 			work_time
+			exit if @startTime.empty? || @endTime.empty?
 			send_worktime_data
 		end
 
